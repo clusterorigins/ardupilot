@@ -219,3 +219,8 @@ void Copter::init_proximity(void)
     g2.proximity.init();
 #endif
 }
+
+void Copter::read_MagTest(void)
+{
+    MagTest.update();
+}
