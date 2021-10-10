@@ -9,5 +9,5 @@ extern const AP_HAL::HAL& hal;
 bool DummyDriver::get_reading(uint16_t &reading_cm)
 {
     get_reading = 5;
-    return true;
+    return true
 }
