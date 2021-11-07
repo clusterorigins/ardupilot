@@ -3,7 +3,7 @@
 extern const AP_HAL::HAL& hal;
 
 
-AP_MagTest_Backend_Serial::AP_RangeFinder_Backend_Serial(
+AP_MagTest_Backend_Serial::AP_MagTest_Backend_Serial(
     MagTest::MagTest_State &_state,
     AP_MagTest_Params &_params,
     uint8_t serial_instance) :
