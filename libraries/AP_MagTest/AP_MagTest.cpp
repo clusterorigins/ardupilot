@@ -4,8 +4,8 @@
 
 extern const AP_HAL::HAL &hal;
 
-???const AP_Param::GroupInfo RangeFinder::var_info[] = {???
-???add backend???   
+//???const AP_Param::GroupInfo RangeFinder::var_info[] = {???
+//???add backend???   
     
 MagTest::MagTest()
 {
