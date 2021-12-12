@@ -220,7 +220,7 @@ void Copter::init_proximity(void)
 #endif
 }
 
-int Copter::read_MagTest(void)
-{
-    MagTest.update();
-}
+// void Copter::read_MagTest(void)
+// {
+//    MagTest.update();
+// }
