@@ -861,6 +861,7 @@ private:
     void accel_cal_update(void);
     void init_proximity();
     void update_proximity();
+    void read_MagTest(void);
 
     // RC_Channel.cpp
     void save_trim();
