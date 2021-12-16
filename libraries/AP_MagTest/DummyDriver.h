@@ -1,5 +1,7 @@
 #pragma once
-
+   
+#include <AP_HAL/AP_HAL.h>
+#include <ctype.h>
 #include "AP_MagTest.h"
 #include "AP_MagTest_Backend_Serial.h"
 
