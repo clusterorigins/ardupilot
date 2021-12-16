@@ -11,7 +11,7 @@ public:
 
     /* Do not allow copies */
     AP_MagTest_Params(const AP_MagTest_Params &other) = delete;
-    AP_MagTest_Params &operator=(const MagTest_Params&) = delete;
+    AP_MagTest_Params &operator=(const AP_MagTest_Params&) = delete;
 
     AP_Int8  type;
     AP_Int8  pin;
