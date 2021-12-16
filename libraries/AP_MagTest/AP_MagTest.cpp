@@ -1,3 +1,5 @@
+#include "AP_MagTest.h"
+
 #include <AP_BoardConfig/AP_BoardConfig.h>
 #include <AP_Logger/AP_Logger.h>
 #include <AP_Vehicle/AP_Vehicle_Type.h>
