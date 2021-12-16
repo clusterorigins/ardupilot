@@ -1,6 +1,7 @@
 #pragma once
 
 #include "AP_MagTest_Backend.h"
+#include <AP_HAL/AP_HAL.h>
 
 class AP_MagTest_Backend_Serial : public AP_MagTest_Backend
 {
