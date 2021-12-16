@@ -1,3 +1,7 @@
+#include <AP_HAL/AP_HAL.h>
+#include "AP_RangeFinder_Backend_Serial.h"
+#include <AP_SerialManager/AP_SerialManager.h>
+
 #include <ctype.h>
 
 extern const AP_HAL::HAL& hal;
