@@ -132,6 +132,6 @@ const AP_Param::GroupInfo AP_MagTest_Params::var_info[] = {
     AP_GROUPEND
 };
 
-AP_RangeFinder_Params::AP_RangeFinder_Params(void) {
+AP_MagTest_Params::AP_MagTest_Params(void) {
     AP_Param::setup_object_defaults(this, var_info);
 }
