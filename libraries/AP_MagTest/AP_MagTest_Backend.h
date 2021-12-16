@@ -30,7 +30,7 @@ public:
     int16_t ground_clearance_cm() const { return params.ground_clearance_cm; }
     MAV_DISTANCE_SENSOR get_mav_distance_sensor_type() const;
     MagTest::Status status() const;
-    MagTest::Type type() const { return (RangeFinder::Type)params.type.get(); }
+    MagTest::Type type() const { return (MagTest::Type)params.type.get(); }
 
     // true if sensor is returning data
     bool has_data() const;
