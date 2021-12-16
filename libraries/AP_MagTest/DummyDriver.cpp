@@ -1,6 +1,6 @@
 #include <AP_HAL/AP_HAL.h>
 #include <ctype.h>
-
+#include "DummyDriver.h"
 extern const AP_HAL::HAL& hal;
 
 
