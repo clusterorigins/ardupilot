@@ -3,15 +3,15 @@
 #include <AP_Param/AP_Param.h>
 #include <AP_Math/AP_Math.h>
 
-class AP_RangeFinder_Params {
+class AP_MagTest_Params {
 public:
     static const struct AP_Param::GroupInfo var_info[];
 
-    AP_RangeFinder_Params(void);
+    AP_MagTest_Params(void);
 
     /* Do not allow copies */
-    AP_RangeFinder_Params(const AP_RangeFinder_Params &other) = delete;
-    AP_RangeFinder_Params &operator=(const AP_RangeFinder_Params&) = delete;
+    AP_MagTest_Params(const AP_MagTest_Params &other) = delete;
+    AP_MagTest_Params &operator=(const MagTest_Params&) = delete;
 
     AP_Int8  type;
     AP_Int8  pin;
