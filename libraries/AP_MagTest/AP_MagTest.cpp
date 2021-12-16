@@ -28,3 +28,22 @@ void MagTest::update(void)
         }
     }
 }
+
+bool MagTest::_add_backend(AP_MagTest_Backend *backend, uint8_t instance)
+{
+    if (!backend) {
+        return false;
+    }
+    if (instance >= RANGEFINDER_MAX_INSTANCES) {
+        AP_HAL::panic("Too many RANGERS backends");
+    }
+    if (drivers[instance] != nullptr) {
+        // we've allocated the same instance twice
+        INTERNAL_ERROR(AP_InternalError::error_t::flow_of_control);
+    }
+
+    drivers[instance] = backend;
+    num_instances = MAX(num_instances, instance+1);
+
+    return true;
+}
