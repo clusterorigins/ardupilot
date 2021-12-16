@@ -8,6 +8,6 @@ extern const AP_HAL::HAL& hal;
 // read - return last value measured by sensor
 bool DummyDriver::get_reading(uint16_t &reading_cm)
 {
-    get_reading = 5;
+    reading_cm = 5;
     return true;
 }
